@@ -8,5 +8,8 @@ body {
 }
 
 .hero-bg {
-	background-color: #307D99;
+	background: #307D99 url("../images/bg.jpg");
+	
+	color: white;
+	
 }
