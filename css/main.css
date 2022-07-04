@@ -36,4 +36,21 @@ h1 {
 	
 }
 
+h1 span {
+	text-transform: uppercase;
+	display: block;
+	font-size: 1.4rem;
+	position: relative;
+	
+}
+
+h1 span::before {
+	content: ' ';
+	position: absolute;
+	width: 3em;
+	background: #00BFFF;
+	height: .4em;
+	bottom: 0;
+}
+
 
