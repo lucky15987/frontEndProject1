@@ -57,4 +57,30 @@ h1 span::before {
 	
 }
 
+.hero-bg p {
+	font-weight: bold;
+	margin: 0 1em 3em;	
+}
+
+.form-container {
+	background-color: white;
+	margin: 2em -1em 0;
+	padding: 2em;	
+}
+
+label {
+	color: #2D7D98;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+
+input[type=text] {
+	border: 1px solid #707070;
+	width: 100%;
+	padding: 1em;
+	border-radius: .5em;
+	margin-top: 1.2em;
+}
 
