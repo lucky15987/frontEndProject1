@@ -165,3 +165,74 @@ p {
 		margin: 2em -4em 0;
 	}	
 }
+
+@media (min-width: 930px) {
+	
+	.hero-bg {
+		text-align: left;
+		
+	}
+	
+	.hero-bg p {
+		margin: 0 0 3em;
+	}
+	
+	.hero-bg section {
+		width: 65%;		
+	}
+	
+	.form-container {
+		margin: 2em 0 0;
+		padding: 2em;
+		border-radius: .5em;
+		box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+	}
+	
+	form {
+		display: flex; 
+		
+	}
+	
+	.form-left {
+		width: 70%;
+	}
+	
+	label {
+		margin: 0;
+	}
+	
+	input[type=button] {
+		height: fit-content;
+		font-size: 1.1em;
+		margin-left: 1em;
+		margin-top: 2.2em;
+		padding: .7em 0;
+		width: 30%
+	}
+	
+	.hero-bg p {
+		margin-bottom: 0;
+	}
+	
+	section.authentic {
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
+		grid-template-areas: 
+			"bowl content";
+	}
+	
+	.right-col {
+		grid-area: content;
+		padding: 0 10%;
+		text-align: left;
+		align-self: center;
+	}
+	
+	img {
+		grid-area: bowl;
+	}
+	
+	h2 {
+		margin: 0.2em;
+	}
+}
