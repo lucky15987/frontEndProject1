@@ -154,3 +154,14 @@ p {
 	/*line-height: var(--leading); //not supported in Adobe Dreamweaver */
 	line-height: 2em;
 }
+
+@media (min-width: 730px) {
+	
+	section {
+		margin: 0 4em;
+	}
+	
+	.form-container {
+		margin: 2em -4em 0;
+	}	
+}
