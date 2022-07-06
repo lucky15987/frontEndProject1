@@ -155,6 +155,22 @@ p {
 	line-height: 2em;
 }
 
+.overlay {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background: rgba(0,0,0,.9);
+	z-index: 1;
+	place-content: center;
+	color: white;
+	display: none;
+	opacity: 0;	
+}
+
+.animate-overlay {
+	animation: overlay 3s forwards;
+}
+
 @media (min-width: 730px) {
 	
 	section {
@@ -166,7 +182,7 @@ p {
 	}	
 }
 
-@media (min-width: 930px) {
+@media (min-width : 1162px ){
 	
 	.hero-bg {
 		text-align: left;
@@ -251,4 +267,19 @@ p {
 		transform: translateY(0);
 	}
 	
+}
+
+@keyframes overlay {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
